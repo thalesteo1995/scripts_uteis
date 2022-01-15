@@ -1,0 +1,15 @@
+# Arquivos do Virtual Enviroment
+envs/*
+venv/*
+env/*
+.envs/*
+.venv/*
+.env/*
+
+# Diretórios em geral
+false
+Entrada
+Saida
+
+# Arquivos
+launch.json
