@@ -42,3 +42,8 @@ a deixá-lo genérico para baixar os arquivos diários de vários meses.
 - Dica: faça um loop aninhado, de tal modo que durante cada iteração
 a variável **url_file*** seja montada a partir do mês, dia e ano. No
 script02.py o mês e ano estão fixos na url.
+
+## script03
+No script03.py é construído um dataframe a partir de
+uma lista de tuplas. Em seguida, o dataframe gerado é salvo em
+um arquivo txt.
