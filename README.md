@@ -28,3 +28,17 @@ Nesse script é mostrado como utilizar uma barra de progesso
 para que você consiga acompanhar a execução de seu script.
 Após ativar o ambiente virtual, instale a lib **tqdm**.
 `pip install tqdm`
+
+## script02
+O script02.py realiza o Download de arquivos de chuva do tipo .grib
+do ftp do CPTEC. Para executar essa tarefa é utilizado aqui
+a biblioteca requests.
+Portanto, caso ainda não tenha instalado esse pacote em seu
+ambiente de trabalho (.venv), faça a sua instalação:
+`pip install requests`.
+
+**Desafio**: um desafio interessante é reescrever esse código de modo
+a deixá-lo genérico para baixar os arquivos diários de vários meses.
+- Dica: faça um loop aninhado, de tal modo que durante cada iteração
+a variável **url_file*** seja montada a partir do mês, dia e ano. No
+script02.py o mês e ano estão fixos na url.
