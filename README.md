@@ -2,6 +2,9 @@
 O objetivo deste projeto é disponibilizar scripts
 em *python* que são úteis para quem está começando
 a trabalhar com essa linguagem de programação.
+Os scripts compartilhados no repositório serão
+focados para manipulação e análise de
+dados, principalmente meteorológicos.
 
 **Observação**: em python a utilização de ambiente virtual é
 bastante útil para evitar conflitos de versões de bibliotecas.
