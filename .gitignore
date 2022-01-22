@@ -9,7 +9,6 @@ env/*
 # Diretórios em geral
 false
 Entrada
-Saida
 
 # Arquivos
 launch.json

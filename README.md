@@ -51,3 +51,8 @@ uma lista de tuplas. Em seguida, o dataframe gerado é salvo em
 um arquivo txt.
 ## script04
 Calcula o tempo de execução de um trecho do código.
+## script05
+Realiza o plot de uma seção transversal vertical da temperatura do ar.
+A figura gerada é salva em: Saida/script05
+***OBS***: Dependendo do arquivo de input o nome das dimensões
+(time, latitude, longitude, level) e da variável (t) vão se alterar.
