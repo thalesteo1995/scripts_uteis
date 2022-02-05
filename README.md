@@ -56,3 +56,11 @@ Realiza o plot de uma seção transversal vertical da temperatura do ar.
 A figura gerada é salva em: Saida/script05
 ***OBS***: Dependendo do arquivo de input o nome das dimensões
 (time, latitude, longitude, level) e da variável (t) vão se alterar.
+## script06
+Realiza o registro (log) dos eventos que foram executados dentro do script.
+O registro desses eventos são armazenados no arquivo app.log do
+diretório Saida/script06. A utlização de log é importante pois ajuda
+a identifcar processos que falharam dentro do código.
+No script06.py são criados três tipos de registros: error, warning e info.
+Uma descrição detalhada desses registros podem ser obtidos em:
+https://rollbar.com/blog/logging-in-python/
