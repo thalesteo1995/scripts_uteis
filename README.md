@@ -64,3 +64,9 @@ a identifcar processos que falharam dentro do código.
 No script06.py são criados três tipos de registros: error, warning e info.
 Uma descrição detalhada desses registros podem ser obtidos em:
 https://rollbar.com/blog/logging-in-python/
+
+## script07
+Aplica o teste de Mann Kendall em uma série temporal.
+Essa série temporal é extraída de um arquivo NetcDf(NC)
+para um ponto de grade específico. O arquivo NC encontra-se
+no diretório Entrada e está nomeado como **precip.mon.mean.nc**.
